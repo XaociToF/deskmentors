@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+
+.table td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+
+.post_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  gap: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:#efefef;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.post_form label {
+  background: rosybrown;
+  text-align: center;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.post_form button {
+  background: indianred;
+  border: none;
+  border-radius: 10px;
+  height: 20px;
+  width: 50%;
+  cursor: pointer;
+}
+
+.post_form button:hover {
+  color: #efefef;
+  transition: 0.4s;
+}
+
+.post_form input {
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.post_form input:focus::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.post_form input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid orange;
+}
+
+.post_form input:hover {
+  background-color: cornflowerblue;
+}

@@ -1,0 +1,41 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+
+    <div class="post_form">
+      <label for="name">Name:</label>
+      <input type="text" placeholder="Enter name" id="name" />
+      <label for="gender">Gender:</label>
+      <input type="text" placeholder="Enter gender" id="gender" />
+      <label for="age">Age:</label>
+      <input type="text" placeholder="Enter age" id="age" />
+      <button class="add_student" onclick="addStudent()">Add Student</button>
+    </div>
+
+
+
+    <table class="table" id="studentTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Age</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="studentTableBody"></tbody>
+    </table>
+
+    <script src="scipt.js"></script>
+  </body>
+
+  </html>

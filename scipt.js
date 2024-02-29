@@ -47,3 +47,17 @@ function clearInputs() {
 }
 
 console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");
+console.log("Chaos!!!");

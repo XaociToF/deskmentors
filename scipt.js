@@ -1,3 +1,5 @@
+console.log("fegrbiwjdwoqfeowe0djnokoep0wfjknoqjs ");
+
 let students = [];
   
 function addStudent() {
@@ -45,19 +47,3 @@ function clearInputs() {
     document.getElementById("gender").value = "";
     document.getElementById("age").value = "";
 }
-
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");
-console.log("Chaos!!!");

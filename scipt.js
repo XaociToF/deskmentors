@@ -1,5 +1,5 @@
 let students = [];
-
+let stuped = "peaple"
 function addStudent() {
   const name = document.getElementById("name").value;
   const gender = document.getElementById("gender").value;
@@ -36,8 +36,8 @@ function updateTable() {
                         <td>${student.age}</td>
                         <td><button onclick="deleteStudent(${student.id})">Delete</button></td>
                     </tr>`;
-    tableBody.innerHTML += row;
-  });
+        tableBody.innerHTML += row;
+    });
 }
 
 function clearInputs() {
@@ -46,4 +46,4 @@ function clearInputs() {
   document.getElementById("age").value = "";
 }
 
-console.log("ты далбаеб");
+console.log("Chaos!!!");

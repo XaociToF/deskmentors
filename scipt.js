@@ -46,3 +46,4 @@ function clearInputs() {
     document.getElementById("age").value = "";
 }
 
+console.log("Chaos!!!");
